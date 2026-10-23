@@ -1,0 +1,405 @@
+================================================================================
+          EVIDENCE TO DECISION SIMULATOR (E2D) - VIDEO DEMONSTRATION SCRIPT
+================================================================================
+PROJECT TITLE  : E2D: Anatomy of a Missing Consignment (Case PO-88421)
+FORMAT         : Cinematic Product Walkthrough & Forensic Documentary Script
+ESTIMATED TIME : ~7 to 8 Minutes
+TONE           : Professional, Institutional, Authoritative, Engaging Storytelling
+TARGET AUDIENCE: Financial Auditors, Legal Investigators, Enterprise Risk Teams,
+                 Executive Leadership, AI Engineers
+OUTPUT FILE    : video_walkthrough_script.txt
+================================================================================
+
+--------------------------------------------------------------------------------
+PRODUCTION OVERVIEW & CHARACTER PERSONAS
+--------------------------------------------------------------------------------
+NARRATOR (VO) : Senior Forensic Investigator & Compliance Auditor. Tone is calm,
+                meticulous, intellectually sharp, and authoritative.
+ON-SCREEN ACTOR: The User / Lead Investigator navigating the UI with deliberate,
+                 smooth cursor movements, showing off the elevated white card
+                 architecture, ultra-faint technical grid, and real-time LLM systems.
+
+================================================================================
+SCENE 1: THE COLD OPEN — A 5.4 LAKH DISPUTE ON THE DESK
+================================================================================
+[TIMECODE: 00:00 - 00:45]
+
+[VISUAL]:
+- Crisp browser window loads "http://localhost:8501".
+- A sleek, minimalist startup loader dissolves into view:
+  "CASE PO-88421 • E2D. • Disputed Shipment Analysis".
+- The orange progress bar animates smoothly to 100%, and the screen reveals the
+  pristine interface: ultra-faint drafting grid background, pure white left
+  sidebar with the iconic bold "E2D." logo (orange italic '2' and accent dot),
+  and elevated white card structures across the main canvas.
+- Camera slowly punches in toward the top header and KPI metric cards.
+
+[NARRATOR (VO)]:
+"October 2026. A high-stakes corporate standoff in Pune, India. 
+
+Zenith Electronics—a major automotive component manufacturer—ordered 500 units
+of critical microcontrollers from Bangalore supplier Apex Microtech. Contract
+value: Eighteen Lakh Rupees under strict DDP warehouse delivery terms.
+
+The supplier claims the full shipment was delivered. Carrier tracking shows
+'DELIVERED'. The invoice demands full payment. 
+
+Yet when Zenith unsealed the pallets at Warehouse 1, three sealed cartons were
+missing. One hundred and fifty microcontrollers—worth 5.4 Lakh Rupees—simply
+vanished into thin air.
+
+Who pays for the loss? Was it stolen off the loading dock? Diverted in transit?
+Or withheld at the manufacturing plant?
+
+Welcome to the Evidence to Decision Simulator—or E2D. In this walkthrough,
+we’ll step into the shoes of an institutional forensic auditor to investigate
+Case PO-88421, dissect contradictory records, interrogate an omniscient
+Forensic Copilot, breach confidential vault records, and deliver an auditable,
+100-point rubric determination."
+
+--------------------------------------------------------------------------------
+SCENE 2: ORIENTATION — ARCHITECTURE OF THE E2D WORKSPACE
+================================================================================
+[TIMECODE: 00:45 - 01:25]
+
+[VISUAL]:
+- Smooth cursor pans to the Left Sidebar.
+- Highlights the prominent "E2D." logo scaled at 5.17rem and the bold monospace
+  "CASE PO-88421" tag.
+- Cursor glides down the elevated "Case Parameters" card:
+  - PO Reference: PO-88421
+  - Contract Value: INR 18,00,000
+  - Target Item: IC-902
+  - Ordered: 500 Units (10 Ctn)
+  - Verified Inward: 350 Units (7 Ctn)
+  - Disputed Shortfall: 150 Units
+  - Active Documents: 6
+  - Vault Records: 0 / 3
+- The narrator explains the UI philosophy: solid pure-white cards floating
+  over an ultra-faint technical grid canvas.
+- Quick glance across the navigation tabs: Case Brief, Timeline, Evidence
+  Register, Contradictions, Inquiry, Vault, Determination, and Report.
+- Cursor gestures toward the right side of the screen: the dedicated Forensic
+  Copilot panel sitting in an elevated, pure-white container.
+
+[NARRATOR (VO)]:
+"The E2D simulator is engineered not as a simple chatbot, but as an
+institutional-grade forensic workbench.
+
+On our left, the persistent Case Parameters sidebar maintains ground truth:
+contract values, unit shortfalls, active document registries, and vault status.
+Notice the design: pure white elevated structures, high-contrast typography,
+and a faint technical graph background that keeps your focus sharp and your
+evidence organized.
+
+Across the top, our eight-stage investigative pipeline guides us from raw
+intake to plain-text RFC-compliant reporting.
+
+And on our right, anchored at every step, is our Forensic Copilot—a live AI
+co-auditor powered by Gemini that possesses total situational awareness of every
+document, timeline event, and legal clause in this workspace."
+
+--------------------------------------------------------------------------------
+SCENE 3: TAB 1 (CASE BRIEF) — THE CRITICAL WEIGHT DEFICIT
+================================================================================
+[TIMECODE: 01:25 - 02:15]
+
+[VISUAL]:
+- Cursor clicks on "Case Brief" tab (active tab glows with Papaya Orange indicator).
+- Hover over the 4 top KPI metric cards:
+  - Contract Quantity: 500 Units (10 Cartons Ordered)
+  - Contract Value: INR 18,00,000 (@ INR 3,600 / Unit)
+  - Verified Inward: 350 Units (150 Units Shortfall)
+  - Disputed Amount: INR 5,40,000 (3 Cartons Missing)
+- Scroll down to the "Consignment Reconciliation" table.
+- Mouse traces each row of the table:
+  - Purchase Order: 500 Units (10 Cartons, 40 kg)
+  - Supplier Dispatch DISP-6619: Declared 40 kg (Shipper count)
+  - Pune Transit Hub Scale: 28.0 kg Scale Weight (Variance: ✕ -12.0 kg)
+  - Carrier Drop: Manifest marked 'DELIVERED', Gate Guard signature
+  - Warehouse Receipt GRN-2026-0412: 350 Units (✕ Deficit: 150 Units)
+- Hover over "Key Discrepancies" and "Investigation Objectives" side-by-side cards.
+
+[NARRATOR (VO)]:
+"We begin in Tab 1: The Case Brief.
+
+Immediately, our financial metrics lay out the dispute: Zenith contracted for
+500 units at 3,600 rupees each. But inward goods receipt GRN-2026-0412 confirms
+only 350 units were physically received.
+
+Now examine our Consignment Reconciliation table. This is where mathematical
+evidence breaks the supplier's story.
+
+Apex claimed they dispatched 10 cartons weighing exactly 40.0 kilograms.
+Each 50-unit carton weighs 4 kilograms. 
+Look at row three: When SwiftLogix Express weighed this consignment on their
+automated inward scale at the Pune Sort Terminal on October 13th, the scale read
+twenty-eight point zero kilograms. 
+
+That is an exact deficit of twelve point zero kilograms.
+Twelve kilograms divided by four kilograms per carton equals exactly three cartons.
+The missing 150 units never disappeared in Pune—they were already missing before
+the truck crossed the regional hub threshold."
+
+--------------------------------------------------------------------------------
+SCENE 4: TAB 2 (TIMELINE) — THE SPOOFED REDIRECTION & SCENE SCRUBBING
+================================================================================
+[TIMECODE: 02:15 - 03:10]
+
+[VISUAL]:
+- Click on Tab 2: "Timeline".
+- Show the interactive Sequence Scrubber at the top.
+- Cursor clicks the "Next →" button to step through chronological events:
+  - Step 1: PO Issued (EVD-001)
+  - Step 2: Invoice DISP-6619 (EVD-002)
+  - Step 3: Logistics Handover (EVD-003)
+  - Step 4: Transit Hub Weighbridge Drop (EVD-003)
+  - Step 5: Spoofed Redirection Email (EVD-005)
+  - Step 6: Carrier Gate Drop (EVD-003)
+  - Step 7: Shift Staging Handover (EVD-006)
+  - Step 8: Warehouse 1 Inward GRN (EVD-004)
+- Click the direct milestone pill: "#5 EVD-005".
+- The right inspector updates instantly to Step 5:
+  - Badge: "✕ SECURITY ANOMALY"
+  - Custody Details: Primary Entity: operations-dispatch@apex-orders-update.com
+  - Counterparty: SwiftLogix Express Dispatch
+  - Location: IP 185.220.101.42 (Berlin TOR Exit Node)
+- Highlight the amber and red flow indicators on the connected timeline stream.
+
+[NARRATOR (VO)]:
+"Let's move to Tab 2: Chronological Sequence.
+
+Here, E2D reconstructs the chain of custody into an interactive chronological
+flow. Using the scrubber buttons or direct milestone selector pills, we can
+inspect every second of the cargo's transit.
+
+Let’s click Step 5: EVD-005.
+
+Here is the second smoking gun. On October 13th at 2:22 PM, SwiftLogix received
+an urgent email instructing the driver to divert the cargo from Zenith’s main
+receiving bay to an unmonitored secondary annex, alleging emergency roof repairs.
+
+Look at the inspector metadata: The originating email address is
+'operations-dispatch@apex-orders-update.com' from an external IP in Berlin.
+The authentic corporate domain is 'apexmicrotech.com'.
+This was an unauthorized spoofing incident designed to bypass formal ERP piece-count
+intake at Warehouse 1.
+
+The driver dropped the pallet at the annex, had an exterior security guard sign
+the gate book without opening the boxes, and carrier tracking posted 'DELIVERED'."
+
+--------------------------------------------------------------------------------
+SCENE 5: TAB 3 & 4 — EVIDENCE REGISTER & CONTRADICTIONS MATRIX
+================================================================================
+[TIMECODE: 03:10 - 04:00]
+
+[VISUAL]:
+- Click on Tab 3: "Evidence Register".
+- Dropdown selector: cycle through EVD-001, EVD-002, EVD-003, EVD-004.
+- Point out the SHA-256 cryptographic hash and full plaintext extract viewer.
+- Glance at the "Upload External Document" section at the bottom.
+- Click on Tab 4: "Contradictions".
+- Expand Conflict 1: "Dispatched vs Received Quantity Mismatch [EVD-002, EVD-004]".
+- Show Assertion A (Apex claim: 500 units) vs Assertion B (Zenith inward: 350 units).
+- Expand Conflict 2: "Declared Gross Weight vs Inward Scale Weight [EVD-002, EVD-003]".
+- Note the automated analysis: "Proves deficit occurred prior to courier arrival in Pune."
+
+[NARRATOR (VO)]:
+"In Tab 3, the Evidence Register catalog preserves raw document integrity,
+complete with document types, parties, declared quantities, and cryptographic
+hashes. Investigators can even upload their own supplemental files, which are
+parsed automatically.
+
+Tab 4 is the Contradictions Matrix. The system cross-references active records
+and automatically exposes conflicting legal and commercial assertions.
+
+Conflict 1 pairs the invoice against the goods receipt.
+Conflict 2 highlights the weighbridge discrepancy.
+The system isolates the exact uncertainty: Under standard DDP terms, the seller
+bears transit risk until verified inward acceptance. But was the theft committed
+by courier personnel, or did the supplier fail to dispatch the cartons?"
+
+--------------------------------------------------------------------------------
+SCENE 6: TAB 5 & RIGHT PANEL — CROSS-EXAMINING THE FORENSIC COPILOT
+================================================================================
+[TIMECODE: 04:00 - 04:50]
+
+[VISUAL]:
+- Cursor moves over to the Right Column: Forensic Copilot.
+- Click the quick action pill: "Breach & Liability".
+- The input immediately registers, a spinner displays "Consulting Gemini...",
+  and within seconds a structured response appears in an elevated card.
+- The Copilot explains:
+  1. Contract PO-88421 terms (DDP Incoterms 2020).
+  2. Carrier custody liability under Waybill SLX-904821.
+  3. Legal justification for Zenith withholding payment and demanding an
+     immediate INR 5,40,000 credit note.
+- In the chat box, type: "Who signed for the cargo at the annex and did they count the boxes?"
+- Submit with "Send".
+- Copilot responds citing EVD-003 and EVD-006: Guard R. Sharma signed at the gate
+  desk; cargo was uncounted and unweighed at intake.
+
+[NARRATOR (VO)]:
+"Now let’s consult our Forensic Copilot on the right.
+
+With a single click on our quick inquiry pills—such as 'Breach & Liability'—we
+prompt our live Gemini LLM integration. 
+
+Notice how the Copilot answers: It doesn't speculate or hallucinate. It operates
+strictly within our evidence register, citing document IDs, referencing Incoterm
+clauses, and detailing carrier liabilities.
+
+We can ask custom follow-up questions in natural language. Copilot maintains
+multi-turn conversational memory, cross-checking gate logs and shift handovers
+to inform our next investigative step."
+
+--------------------------------------------------------------------------------
+SCENE 7: TAB 6 (VAULT) — BREACHING CONFIDENTIAL RECORDS
+================================================================================
+[TIMECODE: 04:50 - 05:45]
+
+[VISUAL]:
+- Click on Tab 6: "Vault".
+- Show the 3 restricted records:
+  - HID-001: Carrier Detailed Run Sheet & Proof of Delivery
+  - HID-002: Zenith CCTV Gate & Dock 2 Log
+  - HID-003: Apex Internal QA Dispatch Audit (Bangalore Facility)
+- Scroll to "Submit Access Request" form.
+- In "Select Confidential Record ID", select: "HID-003".
+- In "Justification", type:
+  "Investigating whether the 12 kg weighbridge shortage originated inside the Bangalore plant prior to carrier pickup."
+- In "Target Question", type:
+  "Were cartons #8, #9, and #10 withheld at the Apex dispatch bay?"
+- Click the papaya "Submit Access Request" button.
+- Green banner fires: "Access granted to HID-003: Apex Internal QA Dispatch Audit."
+- Scroll up: HID-003 now shows a vibrant green "UNLOCKED" badge!
+- The raw confession text is displayed:
+  "Apex internal QA supervisor withheld cartons 8, 9, 10 on Pallet B-4 for
+   batch re-testing; invoice DISP-6619 was printed prematurely."
+
+[NARRATOR (VO)]:
+"We know the shortage happened before Pune. But to establish whether the carrier
+stole the goods or the supplier never dispatched them, we must access the
+Confidential Vault in Tab 6.
+
+These three restricted documents are locked behind institutional access controls.
+The simulator rejects frivolous queries. To unlock a record, an auditor must
+furnish a substantive investigative justification.
+
+We request HID-003—the internal dispatch audit from the supplier's Bangalore plant.
+We submit our investigative premise... and access is approved!
+
+Look at the disclosure: Apex’s internal QA audit admits that Cartons 8, 9, and 10
+were flagged for quality defect re-testing and left on Pallet B-4 in Bangalore.
+The shipping department printed invoice DISP-6619 prematurely and handed the
+carrier only 7 cartons under a Shipper Load and Count clause!
+
+The puzzle is complete: Supplier Liability is 100%."
+
+--------------------------------------------------------------------------------
+SCENE 8: TAB 7 (DETERMINATION) — SCORING THE 100-POINT RUBRIC
+================================================================================
+[TIMECODE: 05:45 - 06:40]
+
+[VISUAL]:
+- Click on Tab 7: "Determination".
+- Scroll down to the submission form:
+  - Determination Summary: Enter comprehensive forensic conclusion establishing
+    supplier liability, citing weighbridge deficit and Bangalore plant retention.
+  - Supporting Evidence: Select EVD-001, EVD-003, EVD-004, HID-003.
+  - Counterevidence: Select EVD-002 (premature invoice), EVD-005 (spoofed email).
+  - Confidence Level: "High".
+  - Remaining Uncertainties: Enter: "Origin IP of spoofed address redirect email."
+  - Recommended Actions: Enter: "Withhold INR 5,40,000; issue formal debit note;
+    require Apex to absorb freight adjustment; refer email spoofing to cyber compliance."
+- Click the papaya button: "Submit Determination".
+- Spinner activates: "Evaluating submission against institutional rubric..."
+- The page refreshes with the live Evaluation Results:
+  - Overall Score Card: 95 / 100 (or 100 / 100)
+  - Dimension Score Breakdown:
+    - Factual Accuracy: 25 / 25
+    - Supporting Evidence: 20 / 20
+    - Counterevidence Handling: 15 / 15
+    - Recognition of Uncertainty: 10 / 10
+    - Reasoning Coherence: 15 / 15
+    - Actionable Next Steps: 15 / 15
+  - Detailed Strengths, Identified Gaps, and Evaluator Assessment notes.
+
+[NARRATOR (VO)]:
+"Now we synthesize our findings in Tab 7: Forensic Determination.
+
+This is the core assessment engine. E2D doesn't just grade keywords; it evaluates
+your findings against an institutional six-dimension rubric:
+Factual accuracy, supporting evidence, counterevidence handling, recognition of
+uncertainty, reasoning coherence, and actionable commercial remedies.
+
+We select our primary citations—including our newly unlocked HID-003—and our
+counterevidence. We set our confidence to High and define specific next steps:
+issuing a formal debit note for INR 5,40,000 and initiating cyber forensics on the
+spoofed redirection IP.
+
+We click Submit Determination.
+
+In real-time, the AI evaluator scrutinizes our submission against the ground truth.
+Look at the score: 100 out of 100 across all six dimensions, complete with
+substantive feedback affirming our chain of reasoning."
+
+--------------------------------------------------------------------------------
+SCENE 9: TAB 8 (REPORT) — COMPILING THE AUDIT REPORT (.TXT)
+================================================================================
+[TIMECODE: 06:40 - 07:25]
+
+[VISUAL]:
+- Click on Tab 8: "Report (.txt)".
+- The page displays: "REPORT READY • Attempt #1 • Evaluation Score: 100 / 100".
+- Cursor hovers over the primary button: "Download Report (.txt)".
+- Click the button; the browser instantly downloads "investigation_report_PO88421.txt".
+- Scroll down through the Report Preview textarea:
+  - Section 1: Executive Summary & Loss Quantum
+  - Section 2: Contractual & Evidentiary Register
+  - Section 3: Chronological Chain of Custody & Weight Reconciliation
+  - Section 4: Contradiction & Cyber Anomaly Analysis
+  - Section 5: Confidential Vault Disclosures (HID-003)
+  - Section 6: Evaluated Forensic Determination & Legal Remedy
+  - Section 7: Audit Authentication & Digital Signoff.
+
+[NARRATOR (VO)]:
+"With our determination scored, Tab 8 unlocks our final deliverable:
+The formal, RFC-2046 compliant Commercial Forensic Investigation Report.
+
+With a single click, we can download the full plain-text audit dossier to our
+local machine. 
+
+Notice the structure of the compiled report:
+From the opening executive summary and financial quantum, through certified
+weighbridge telemetry and cyber spoofing IP records, to the unredacted vault
+findings and our evaluated commercial determination. 
+
+It is completely reproducible, auditable, and ready for senior executives,
+outside legal counsel, or commercial arbitration."
+
+--------------------------------------------------------------------------------
+SCENE 10: CONCLUSION & OUTRO
+================================================================================
+[TIMECODE: 07:25 - 07:55]
+
+[VISUAL]:
+- Cursor returns to the top-level view showing the complete E2D dashboard.
+- Left sidebar, main workspace, and right Forensic Copilot stand proudly in harmony.
+- Cinematic zoom out to reveal the full high-contrast, elevated design system.
+- Fade to sleek outro screen with the bold "E2D." logo and tagline:
+  "Evidence to Decision Simulator | Institutional Financial Intelligence".
+
+[NARRATOR (VO)]:
+"From an unexplained 5.4 Lakh deficit to an open-and-shut case of supplier liability.
+
+The Evidence to Decision Simulator transforms unstructured supply-chain chaos
+into rigorous, verifiable institutional intelligence. By coupling deterministic
+evidence verification with contextual LLM reasoning, E2D proves that financial
+investigations can be fast, traceable, and above all—grounded in truth.
+
+Thank you for watching."
+
+================================================================================
+                             [END OF VIDEO SCRIPT]
+================================================================================

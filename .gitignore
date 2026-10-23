@@ -1,0 +1,38 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+secrets.toml
+.streamlit/secrets.toml
+
+# Virtual environments
+coach_env/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Operating system & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
