@@ -1,4 +1,4 @@
-# AI Evidence-to-Decision Simulator
+# AI Evidence-to-Decision Simulator By Mahant S Arawal
 
 A forensic decision-intelligence application built using Python, Streamlit, and the Google Gemini API. The system investigates commercial supply chain discrepancies using multi-source business documents, structured evidence registers, chronological timelines, contradiction analysis, controlled hidden record access, and rubric-based decision evaluations.
 
